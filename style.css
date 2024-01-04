@@ -1,0 +1,149 @@
+body {
+    font-family: arial, sans-serif;
+    background: #fff;
+    color: #222;
+    font-size: small;
+    padding:0;
+    margin:0px;
+  }
+  body, td, a, p, .h {
+      font-family: arial,sans-serif;
+    
+  }
+  center {
+    text-align: center;
+  }
+  .search {
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+  }
+  .search:hover{
+    box-shadow:1px 1px 4px #333;
+  }
+  .search:focus-within {
+    box-shadow: 1px 1px 4px #333;
+  }
+  .searchicon {
+    color: #9aa0a6;
+    opacity: 0.5;
+    height: 20px;
+    width: 20px;
+    margin: 12px;
+  }
+  .input {
+    background-color: transparent;
+    border: none;
+    /*     margin: 0;
+      padding: 0; */
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    flex: 100%;
+  }
+  .input:active{
+    border-color:blue;
+  }
+  .buttons:focus,
+  .buttons:active {
+    border: 1px solid #4285f4; /* Change to the desired color, here it's blue (#4285f4) */
+    outline: none; /* Optional: Remove default focus outline */
+  }
+  .voice {
+    background: url(//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .buttonGroups {
+    display: flex;
+    justify-content: center;
+  }
+  .buttons {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+  }
+  .buttons:hover{
+    border: 1px solid rgba(0,0,0,.2);
+  } 
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .appsIcon {
+    color: #000;
+  }
+  .signIn {
+    background-color: #4285f4;
+    color: white;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    font-size: small;
+    padding: 5px 14px;
+  }
+  .right {
+    padding: 0px 30px;
+  }
+  .left {
+    padding: 10px 15px;
+  }
+  header a {
+    font-family: arial, sans-serif;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    
+  }header a:hover{
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+        border-top: 1px solid #e4e4e4;
+  }
+  footer a{
+    background:transparent;
+     text-decoration: none;
+    color: #222;
+    opacity:0.7;
+        font-family: arial,sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px 4px;
+    
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  footer div{
+   margin:10px 10px;
+  }
+  
